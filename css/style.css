@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+* {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  font-size: 16px; }
+
+img {
+  max-width: 100%; }
+
+.btn-custom, .btn-custom:hover, .books .books-section:hover, .Courses .course .card-body a, .Courses .course .card-body a:hover {
+  transition: all 0.3s cubic-bezier(0, 0, 1, 0.04);
+  -webkit-transition: all 0.3s cubic-bezier(0, 0, 1, 0.04);
+  -moz-transition: all 0.3s cubic-bezier(0, 0, 1, 0.04); }
+
+a:hover {
+  text-decoration: none; }
+
+header {
+  background-color: #F0FFF0; }
+  header .navbar {
+    padding: 20px; }
+    header .navbar .navbar-brand img {
+      width: 200px; }
+    header .navbar .navbar-nav .nav-item .nav-link {
+      color: #413960;
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      border-radius: 30px;
+      padding: 7px 25px; }
+      header .navbar .navbar-nav .nav-item .nav-link:hover {
+        background-color: #21B573;
+        border-radius: 30px;
+        color: #fff; }
+    header .navbar .navbar-nav .nav-item:last-child .nav-link {
+      background-color: #21B573;
+      border-radius: 30px;
+      color: #fff; }
+  header h5 {
+    font-size: 20px;
+    font-weight: 500;
+    color: red; }
+  header h1 {
+    font-size: 65px;
+    font-weight: 700; }
+    header h1 span {
+      color: #21B573; }
+  header p {
+    font-size: 20px;
+    font-weight: 500; }
+
+.btn-custom {
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  background-color: #21B573;
+  border: 2px solid #21B573;
+  border-radius: 30px; }
+  .btn-custom:hover {
+    background-color: transparent;
+    color: #21B573; }
+
+.books {
+  padding: 50px 0px; }
+  .books .books-section {
+    padding: 50px 0px;
+    background-color: #F8FFFB; }
+    .books .books-section:hover {
+      background-color: #fff;
+      box-shadow: 0 20px 40px #80808040; }
+    .books .books-section img {
+      max-width: 65px; }
+    .books .books-section h2 {
+      font-size: 25px;
+      font-weight: 600;
+      padding-top: 20px;
+      color: #413960; }
+    .books .books-section p {
+      font-size: 17px;
+      font-weight: 500;
+      margin-top: 5px; }
+
+.heading h1 {
+  text-align: center;
+  font-size: 35px !important;
+  font-weight: 800 !important;
+  margin-bottom: 50px;
+  color: #413960; }
+
+.Courses {
+  padding: 0px 0px 50px; }
+  .Courses .course .card-body h5 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #413960;
+    margin-top: 10px; }
+  .Courses .course .card-body p {
+    font-size: 17px;
+    font-weight: 500;
+    color: #413960;
+    margin-top: 10px; }
+  .Courses .course .card-body a {
+    padding: 7px 25px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    background-color: #21B573;
+    border: 2px solid #21B573;
+    border-radius: 30px;
+    margin-bottom: 30px; }
+    .Courses .course .card-body a:hover {
+      background-color: transparent;
+      color: #21B573; }
+  .Courses .course .card-body li img {
+    max-width: 15px; }
+  .Courses .course .card-body li span {
+    color: #413960;
+    font-size: 15px;
+    font-weight: 600; }
+
+.card {
+  box-shadow: 0 20px 40px #8080803d;
+  border: none !important; }
+
+.Others {
+  padding: 50px 0px; }
+  .Others img {
+    max-width: 140px; }
+  .Others p {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 0px; }
+
+footer {
+  padding: 50px 0px;
+  background-color: #282531;
+  color: #fff; }
+  footer h5 {
+    font-size: 20px;
+    font-weight: 600; }
+  footer ul li {
+    list-style: none;
+    padding: 3px; }
+    footer ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 13px; }
+      footer ul li a:hover {
+        color: #fff;
+        opacity: 0.7; }
+  footer h6 {
+    padding-top: 40px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: gary;
+    opacity: 0.7; }
+
+/*# sourceMappingURL=style.css.map */
